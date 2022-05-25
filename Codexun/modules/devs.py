@@ -18,7 +18,7 @@ from Codexun.utils.decorators import sudo_users_only
 from Codexun.utils.decorators import errors
 from Codexun.utils.filters import command
 from Codexun.modules import check_heroku
-from Codexun.database.functinos import start_restart_stage
+from Codexun.database.functions import start_restart_stage
 
 
 @app.on_message(command(["rebootmusic", "restart"]) & filters.user(OWNER_ID))
